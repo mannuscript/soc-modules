@@ -1,0 +1,53 @@
+verification result:
+spin -a  assignment1.pml
+gcc -DMEMLIM=1024 -O2 -DXUSAFE -DNOCLAIM -w -o pan pan.c
+./pan -m10000  -a
+Pid: 56609
+warning: no accept labels are defined, so option -a has no effect (ignored)
+error: max search depth too small
+Depth=    9999 States=    1e+06 Transitions= 2.61e+06 Memory=   304.315	t=     1.69 R=   6e+05
+Depth=    9999 States=    2e+06 Transitions= 5.24e+06 Memory=   479.999	t=     3.52 R=   6e+05
+Depth=    9999 States=    3e+06 Transitions= 9.21e+06 Memory=   655.585	t=     6.39 R=   5e+05
+Depth=    9999 States=    4e+06 Transitions= 1.34e+07 Memory=   831.269	t=     9.29 R=   4e+05
+Depth=    9999 States=    5e+06 Transitions= 1.61e+07 Memory=  1006.855	t=     11.3 R=   4e+05
+pan: reached -DMEMLIM bound
+	1.07368e+09 bytes used
+	102400 bytes more needed
+	1.07374e+09 bytes limit
+hint: to reduce memory, recompile with
+  -DCOLLAPSE # good, fast compression, or
+  -DMA=212   # better/slower compression, or
+  -DHC # hash-compaction, approximation
+  -DBITSTATE # supertrace, approximation
+
+(Spin Version 6.4.5 -- 1 January 2016)
+Warning: Search not completed
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	- (not selected)
+	assertion violations	+
+	acceptance   cycles 	- (not selected)
+	invalid end states	+
+
+State-vector 212 byte, depth reached 9999, errors: 0
+  5097407 states, stored
+ 11230378 states, matched
+ 16327785 transitions (= stored+matched)
+        0 atomic steps
+hash conflicts:    896601 (resolved)
+
+Stats on memory usage (in Megabytes):
+ 1166.704	equivalent memory usage for states (stored*(State-vector + overhead))
+  896.318	actual memory usage for states (compression: 76.82%)
+         	state-vector as stored = 156 byte + 28 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+ 1023.944	total actual memory usage
+
+
+
+pan: elapsed time 11.5 seconds
+No errors found -- did you verify all claims?
+
+

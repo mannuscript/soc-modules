@@ -1,0 +1,5 @@
+P=?[F<100 carCrash]
+P=?[F<30  "AorBreachingGasStation"]
+R=?[F carAReachingGasStation]
+P=?[(F crashOnCorner1) & (F crashOnCorner2) & (F crashOnCorner3) & (F crashOnCorner4)]
+P>.5[G(F "AandBreachingGasStation")]

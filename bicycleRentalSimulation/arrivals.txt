@@ -1,0 +1,132 @@
+
+	Distribution Summary for A
+
+Distribution:	Exponential  
+Expression:	EXPO(8.65)
+Square Error:	0.004763
+
+Chi Square Test
+  Number of intervals	= 7
+  Degrees of freedom 	= 5
+  Test Statistic     	= 6.62
+  Corresponding p-value	= 0.251
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0427
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 176
+Min Data Value       	= 0.04
+Max Data Value       	= 43.6
+Sample Mean          	= 8.65
+Sample Std Dev       	= 8.29
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 44
+Number of Intervals	= 13
+
+
+
+
+
+
+
+	Distribution Summary for B
+
+Distribution:	Exponential  
+Expression:	EXPO(8.47)
+Square Error:	0.003076
+
+Chi Square Test
+  Number of intervals	= 7
+  Degrees of freedom 	= 5
+  Test Statistic     	= 7
+  Corresponding p-value	= 0.228
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0509
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 181
+Min Data Value       	= 0.01
+Max Data Value       	= 36.1
+Sample Mean          	= 8.47
+Sample Std Dev       	= 7.92
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 37
+Number of Intervals	= 13
+
+
+
+
+	Distribution Summary for C
+
+Distribution:	Exponential  
+Expression:	EXPO(9.06)
+Square Error:	0.002780
+
+Chi Square Test
+  Number of intervals	= 5
+  Degrees of freedom 	= 3
+  Test Statistic     	= 0.739
+  Corresponding p-value	> 0.75
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0578
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 170
+Min Data Value       	= 0.04
+Max Data Value       	= 55.8
+Sample Mean          	= 9.06
+Sample Std Dev       	= 9.05
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 56
+Number of Intervals	= 13
+
+
+
+
+
+	
+	Distribution Summary for D
+
+Distribution:	Exponential  
+Expression:	EXPO(7.9)
+Square Error:	0.000632
+
+Chi Square Test
+  Number of intervals	= 7
+  Degrees of freedom 	= 5
+  Test Statistic     	= 0.696
+  Corresponding p-value	> 0.75
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0314
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 193
+Min Data Value       	= 0.01
+Max Data Value       	= 40.5
+Sample Mean          	= 7.9
+Sample Std Dev       	= 7.69
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 41
+Number of Intervals	= 13
+
+

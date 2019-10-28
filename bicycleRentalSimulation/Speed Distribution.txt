@@ -1,0 +1,29 @@
+
+	Distribution Summary Speed
+
+Distribution:	Triangular   
+Expression:	TRIA(10, 19.8, 30)
+Square Error:	0.000256
+
+Chi Square Test
+  Number of intervals	= 38
+  Degrees of freedom 	= 36
+  Test Statistic     	= 43.2
+  Corresponding p-value	= 0.202
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.00897
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 5000
+Min Data Value       	= 10.3
+Max Data Value       	= 29.9
+Sample Mean          	= 19.9
+Sample Std Dev       	= 4.04
+
+	Histogram Summary
+
+Histogram Range    	= 10 to 30
+Number of Intervals	= 40

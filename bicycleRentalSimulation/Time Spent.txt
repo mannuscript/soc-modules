@@ -1,0 +1,128 @@
+
+	Distribution Summary at A
+
+Distribution:	Normal       
+Expression:	NORM(29.9, 5.11)
+Square Error:	0.001424
+
+Chi Square Test
+  Number of intervals	= 17
+  Degrees of freedom 	= 14
+  Test Statistic     	= 20.8
+  Corresponding p-value	= 0.109
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0239
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 600
+Min Data Value       	= 16
+Max Data Value       	= 47.3
+Sample Mean          	= 29.9
+Sample Std Dev       	= 5.12
+
+	Histogram Summary
+
+Histogram Range    	= 16 to 48
+Number of Intervals	= 24
+
+
+
+
+
+	Distribution Summary at B
+
+Distribution:	Normal       
+Expression:	NORM(30, 5.29)
+Square Error:	0.001311
+
+Chi Square Test
+  Number of intervals	= 16
+  Degrees of freedom 	= 13
+  Test Statistic     	= 9.98
+  Corresponding p-value	= 0.694
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0356
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 600
+Min Data Value       	= 11.2
+Max Data Value       	= 45.7
+Sample Mean          	= 30
+Sample Std Dev       	= 5.29
+
+	Histogram Summary
+
+Histogram Range    	= 11 to 46
+Number of Intervals	= 24
+
+
+
+
+	Distribution Summary at C
+
+Distribution:	Normal       
+Expression:	NORM(30, 4.96)
+Square Error:	0.000971
+
+Chi Square Test
+  Number of intervals	= 17
+  Degrees of freedom 	= 14
+  Test Statistic     	= 14.9
+  Corresponding p-value	= 0.396
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0237
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 600
+Min Data Value       	= 14.5
+Max Data Value       	= 42.4
+Sample Mean          	= 30
+Sample Std Dev       	= 4.97
+
+	Histogram Summary
+
+Histogram Range    	= 14 to 43
+Number of Intervals	= 24
+
+
+
+
+
+	Distribution Summary at D
+
+Distribution:	Normal       
+Expression:	NORM(30, 5.01)
+Square Error:	0.001839
+
+Chi Square Test
+  Number of intervals	= 16
+  Degrees of freedom 	= 13
+  Test Statistic     	= 12.2
+  Corresponding p-value	= 0.51
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0286
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 600
+Min Data Value       	= 12.7
+Max Data Value       	= 47.7
+Sample Mean          	= 30
+Sample Std Dev       	= 5.02
+
+	Histogram Summary
+
+Histogram Range    	= 12 to 48
+Number of Intervals	= 24
+
